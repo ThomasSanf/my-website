@@ -47,11 +47,13 @@ export default function About() {
       <Center>   
         <PhoneIcon></PhoneIcon><Link href="tel:+33644150889">--Phone: +33644150889</Link>
       </Center>
-      </Main>
-      <DarkModeSwitch />
+      <Center>
       <Footer>
         <Text>Made with love by Thomas ❤️ </Text>
       </Footer>
+      </Center>
+      </Main>
+      <DarkModeSwitch />
     </Container>
   
       </>
