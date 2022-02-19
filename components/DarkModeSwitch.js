@@ -12,7 +12,7 @@ import NextLink from 'next/link'
 
 export const DarkModeSwitch = () => {
   const { toggleColorMode } = useColorMode()
-  const colorMode = 'light'
+  const colorMode = 'dark'
   const [display, changeDisplay] = useState('none')
   return (
     <Flex>
