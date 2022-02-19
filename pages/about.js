@@ -44,11 +44,13 @@ export default function About() {
       <Center>   
         <Text>I can talk with you in <Code>English 🇬🇧</Code> or <Code>Chinese 🇨🇳</Code> or <Code>French 🇫🇷</Code> or <Code>Spanish 🇪🇸</Code>.</Text>
       </Center>
-      </Main>
-      <DarkModeSwitch />
+      <Center>
       <Footer>
         <Text>Made with love by Thomas ❤️ </Text>
       </Footer>
+      </Center>
+      </Main>
+      <DarkModeSwitch />
     </Container>
   
       </>
