@@ -85,7 +85,8 @@ export const DarkModeSwitch = () => {
       <Flex
         w='100vw'
         display={display}
-        bgColor="gray.50"
+        bgColor="grey"
+        opacity={0.8}
         zIndex={20}
         h="100vh"
         pos="fixed"
@@ -101,6 +102,7 @@ export const DarkModeSwitch = () => {
             mr={2}
             aria-label="Open Menu"
             size="lg"
+            colorMode='dark'
             icon={
               <CloseIcon />
             }
