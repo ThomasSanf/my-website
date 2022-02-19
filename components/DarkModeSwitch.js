@@ -86,7 +86,7 @@ export const DarkModeSwitch = () => {
         w='100vw'
         display={display}
         bgColor="grey"
-        opacity={0.8}
+        opacity={0.9}
         zIndex={20}
         h="100vh"
         pos="fixed"
