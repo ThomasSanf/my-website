@@ -41,11 +41,13 @@ export default function Home() {
     <Center>   
       <Text>Website made using <Code>Next.js</Code> + <Code>chakra-ui</Code> + <Code>Three.js</Code>.</Text>
       </Center>
+    <Center>
+    <Footer>
+      <Text>Made with love by Thomas ❤️</Text>
+    </Footer>
+    </Center>
     </Main>
     <DarkModeSwitch />
-    <Footer>
-    <Text>Made with love by Thomas ❤️ </Text>
-    </Footer>
   </Container>
 
     </>
