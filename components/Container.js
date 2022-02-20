@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 export const Container = (props) => {
   const { colorMode } = useColorMode()
 
-  const bgColor = { light: 'gray.900', dark: 'gray.900' }
+  const bgColor = { light: 'gray.50', dark: 'gray.50' }
 
   const color = { light: 'white', dark: 'white' }
   return (
