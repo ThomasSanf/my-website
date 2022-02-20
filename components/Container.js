@@ -6,7 +6,7 @@ export const Container = (props) => {
 
   const bgColor = { light: 'gray.50', dark: 'gray.900' }
 
-  const color = { light: 'black', dark: 'white' }
+  const color = { light: 'white', dark: 'white' }
   return (
 
     <Flex
