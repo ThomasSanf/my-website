@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 
 export const Container = (props) => {
   const { colorMode } = useColorMode()
+  const push;
 
   const bgColor = { light: 'gray.50', dark: 'gray.900' }
 
