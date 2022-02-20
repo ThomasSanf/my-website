@@ -4,9 +4,9 @@ import { motion } from 'framer-motion'
 export const Container = (props) => {
   const { colorMode } = useColorMode()
 
-  const bgColor = { light: 'gray.50', dark: 'gray.50' }
+  const bgColor = { dark: 'gray.900', light: 'gray.50'  }
 
-  const color = { light: 'white', dark: 'white' }
+  const color = { dark: 'white', light: 'black'  }
   return (
 
     <Flex
