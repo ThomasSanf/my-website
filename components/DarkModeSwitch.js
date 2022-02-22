@@ -4,7 +4,8 @@ import {
   Switch,
   Flex,
   Button,
-  IconButton
+  IconButton,
+  SimpleGrid
 } from '@chakra-ui/react'
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 import NextLink from 'next/link'
@@ -129,6 +130,18 @@ export const DarkModeSwitch = () => {
               w="100%"
             >
               Home
+                    </Button>
+          </NextLink>
+
+          <NextLink href="/projects" passHref>
+            <Button
+              as="a"
+              variant="ghost"
+              aria-label="Projects"
+              my={5}
+              w="100%"
+            >
+              Projects
                     </Button>
           </NextLink>
 

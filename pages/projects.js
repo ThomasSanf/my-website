@@ -9,6 +9,8 @@ import {
   List,
   ListIcon,
   ListItem,
+  SimpleGrid,
+  Spacer
 } from '@chakra-ui/react'
 import { Hero } from '../components/Hero'
 import { Container } from '../components/Container'
@@ -37,8 +39,32 @@ export default function About() {
       ></div>
       <Container height="100vh">
       <Hero title={"my projects."}/>
+
       <Main>
-      <ItemProject title={"FeelLing"} thumbnail={'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}></ItemProject>
+      <SimpleGrid columns={2} spacing={10}>
+      <ItemProject title={"Tampopo"} 
+      thumbnail={'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}
+      type="Restaurant Website"
+      year={2022}
+      desc={"A website made for one of the best sushi chef in France :) "}></ItemProject>
+      <ItemProject title={"Chapardeurs"} 
+      thumbnail={'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}
+      type={"Cat-Hotel Website"}
+      year={2021}
+      desc={"I had to watch 300 different pictures of cats to build this cat hotel website"}></ItemProject>
+      <ItemProject title={"FeelLing"}
+       thumbnail={'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}
+       type={"Restaurant Website"}
+       year={2021}
+       desc={"A website for the best cantonese restaurant of Paris (They're the best)"}>
+       </ItemProject>
+      <ItemProject title={"Arthur&Nathalie"} 
+      thumbnail={'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}
+      type={"Eye-Wear Website"}
+      year={2019}
+      desc={"A website designed for a super kind and joyful glasses seller called Arthur"}
+      ></ItemProject>
+      </SimpleGrid>
       <Center>
       <Footer>
         <Text>Made with love by Thomas ❤️ </Text>

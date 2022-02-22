@@ -9,7 +9,7 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 
-export const ItemProject = ({title, thumbnail}) => {
+export const ItemProject = ({title,type, thumbnail, desc, year}) => {
   return (
     <Center py={6}>
       <Box
@@ -41,7 +41,7 @@ export const ItemProject = ({title, thumbnail}) => {
             fontWeight={800}
             fontSize={'sm'}
             letterSpacing={1.1}>
-            Blog
+            {type}
           </Text>
           <Heading
             color={useColorModeValue('gray.700', 'white')}
@@ -50,10 +50,7 @@ export const ItemProject = ({title, thumbnail}) => {
             {title}
           </Heading>
           <Text color={'gray.500'}>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum.
+            {desc}
           </Text>
         </Stack>
         <Stack mt={6} direction={'row'} spacing={4} align={'center'}>
@@ -62,8 +59,10 @@ export const ItemProject = ({title, thumbnail}) => {
             alt={'Author'}
           />
           <Stack direction={'column'} spacing={0} fontSize={'sm'}>
-            <Text fontWeight={600}>Achim Rolle</Text>
-            <Text color={'gray.500'}>Feb 08, 2021 · 6min read</Text>
+            <Text fontWeight={600}>Thomas</Text>
+            <Text color={'gray.500'}>
+              {year}
+              </Text>
           </Stack>
         </Stack>
       </Box>
