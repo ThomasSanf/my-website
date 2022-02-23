@@ -19,6 +19,7 @@ import { DarkModeSwitch } from '../components/DarkModeSwitch'
 import { Footer } from '../components/Footer'
 import { ItemProject } from '../components/ItemProject'
 import { CalendarIcon, EmailIcon, PhoneIcon } from "@chakra-ui/icons";
+import { useBreakpointValue } from '@chakra-ui/react';
 
 export default function About() {
     //The weird pyramid stuff
@@ -41,7 +42,7 @@ export default function About() {
       <Hero title={"my projects."}/>
 
       <Main>
-        <SimpleGrid columns={2} spacing={10}>
+      <SimpleGrid columns={{base:1,  lg: 2}} spacing={10}>
       <ItemProject title={"Tampopo"} 
       thumbnail={'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}
       type="Restaurant Website"
