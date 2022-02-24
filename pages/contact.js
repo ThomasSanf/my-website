@@ -39,7 +39,7 @@ export default function About() {
       <Main>
       <Center>   
       <EmailIcon/><Link to='javascript:void(0)'
-      onClick={() => window.location = 'contact@algobox.fr'}>--Contact@Algobox.fr</Link>
+      onClick={() => window.location = 'contact@algobox.fr'}>--Mail: contact@algobox.fr</Link>
       </Center>
       <Center>   
         <CalendarIcon/><Link href="https://www.instagram.com/thomas_sanfo/">--Instagram: @thomas_sanfo</Link>
