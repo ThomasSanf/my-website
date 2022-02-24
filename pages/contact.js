@@ -38,14 +38,14 @@ export default function About() {
       <Hero title={"contact."}/>
       <Main>
       <Center>   
-      <EmailIcon/><Link to='javascript:void(0)'
-      onClick={() => window.location = 'contact@algobox.fr'}>--Mail: contact@algobox.fr</Link>
+       <Code><EmailIcon/><Link to='javascript:void(0)'
+      onClick={() => window.location = 'contact@algobox.fr'}>--Mail: contact@algobox.fr</Link></Code>
       </Center>
       <Center>   
-        <CalendarIcon/><Link href="https://www.instagram.com/thomas_sanfo/">--Instagram: @thomas_sanfo</Link>
+        <Code><CalendarIcon/><Link href="https://www.instagram.com/thomas_sanfo/">--Instagram: @thomas_sanfo</Link></Code>
       </Center>
       <Center>   
-        <PhoneIcon></PhoneIcon><Link href="tel:+33644150889">--Phone: +33644150889</Link>
+        <Code><PhoneIcon></PhoneIcon><Link href="tel:+33644150889">--Phone: +33644150889</Link></Code>
       </Center>
       <Center>
       <Footer>
