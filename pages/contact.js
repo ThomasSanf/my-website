@@ -38,7 +38,7 @@ export default function About() {
       <Hero title={"contact."}/>
       <Main>
       <Center>   
-       <Code><EmailIcon/><Link to='javascript:void(0)'
+       <Code>    <EmailIcon/><Link to='javascript:void(0)'
       onClick={() => window.location = 'contact@algobox.fr'}>--Mail: contact@algobox.fr</Link></Code>
       </Center>
       <Center>   
