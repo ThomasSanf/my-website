@@ -75,9 +75,9 @@ export default function Simple() {
                 color={useColorModeValue('white.500', 'white.400')}
                 fontSize={'2xl'}
                 fontWeight={'300'}>
-                        A showcase website for a glasses store located in a charming city called <Badge>Périgueux</Badge>,
+                        A showcase website for a glasses store located in a charming city called Périgueux,
            it was made in 2020. I
-          built it using wordpress. Got a traffic over <Badge>700</Badge>
+          built it using wordpress. Got a traffic over 700
           users per day.
               </Text>
             </VStack>
