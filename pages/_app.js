@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import { ChakraProvider } from '@chakra-ui/react'
 import { extendTheme } from '@chakra-ui/react'
-import { AnimatePresence } from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
 
 const colors = {
   brand: {
@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>
       <AnimatePresence>
-      <Component {...pageProps} />
+        <Component {...pageProps} />
       </AnimatePresence>
     </ChakraProvider>
   )
