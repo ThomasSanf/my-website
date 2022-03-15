@@ -101,7 +101,7 @@ export default function Simple() {
               transform: 'translateY(2px)',
               boxShadow: 'lg',
             }}>
-            Visiter leur site
+            Visit their website
           </Button>
 
           <Stack direction="row" alignItems="center" justifyContent={'center'}>
