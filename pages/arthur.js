@@ -1,6 +1,7 @@
 import {
   Box,
   chakra,
+  Code,
   Stack,
   Text,
   Image,
@@ -54,7 +55,7 @@ export default function Simple() {
               color={useColorModeValue('gray.900', 'gray.400')}
               fontWeight={300}
               fontSize={'2xl'}>
-              July 2019
+              <Code>July 2019</Code>
             </Text>
           </Box>
 
@@ -71,17 +72,19 @@ export default function Simple() {
                 color={useColorModeValue('gray.500', 'gray.400')}
                 fontSize={'2xl'}
                 fontWeight={'300'}>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore
-              </Text>
-              <Text fontSize={'lg'}>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
-                aliquid amet at delectus doloribus dolorum expedita hic, ipsum
-                maxime modi nam officiis porro, quae, quisquam quos
-                reprehenderit velit? Natus, totam.
+                        A showcase website for a glasses store located in a charming city called Périgueux,
+           it was made in 2020. I
+          built it using wordpress. Got a traffic over 700
+          users per day.
               </Text>
             </VStack>
+    
           </Stack>
+          <Text>Platform</Text>
+            <Code>Wordpress</Code>
+
+            <Text>Languages used</Text>
+            <Code>HTML - CSS - JavaScript - SQL - PHP</Code>
 
           <Button
             rounded={'none'}
