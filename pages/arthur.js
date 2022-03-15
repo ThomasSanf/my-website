@@ -48,7 +48,9 @@ export default function Simple() {
             <Heading
               lineHeight={1.1}
               fontWeight={600}
-              fontSize={{ base: '2xl', sm: '4xl', lg: '5xl' }}>
+              fontSize={{ base: '2xl', sm: '4xl', lg: '5xl' }}
+              bgGradient="linear(to-l, #7928CA, #FF0080)"
+              bgClip="text">
               Arthur Et Nathalie
             </Heading>
             <Text
@@ -69,7 +71,7 @@ export default function Simple() {
             }>
             <VStack spacing={{ base: 4, sm: 6 }}>
               <Text
-                color={useColorModeValue('gray.500', 'gray.400')}
+                color={useColorModeValue('white.500', 'white.400')}
                 fontSize={'2xl'}
                 fontWeight={'300'}>
                         A showcase website for a glasses store located in a charming city called Périgueux,
