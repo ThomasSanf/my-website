@@ -68,7 +68,7 @@ export default function About() {
       </SimpleGrid>
       <Center>
       <Footer>
-        <Text>Made with love by Thomas ❤️ </Text>
+        <Text>Made with love by Thomas Sanfourche ❤️ </Text>
       </Footer>
       </Center>
       </Main>
