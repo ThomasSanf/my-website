@@ -29,5 +29,5 @@ export const Hero = ({ title }) => (
 )
 
 Hero.defaultProps = {
-  title: 'Sanfourche.',
+  title: 'portfolio.',
 }
