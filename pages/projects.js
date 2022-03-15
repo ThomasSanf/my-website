@@ -59,6 +59,18 @@ export default function About() {
        year={2021}
        desc={"A website for the best cantonese restaurant of Paris (They're the best)"}>
        </ItemProject>
+       <ItemProject title={"JungleWorks"}
+       thumbnail={'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}
+       type={"Ticket System"}
+       year={2020}
+       desc={"A handmade javascript ticketing system made for a food delivery app"}>
+       </ItemProject>
+       <ItemProject title={"Montekana"}
+       thumbnail={'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}
+       type={"Tea Shop Website"}
+       year={2020}
+       desc={"A website for a very cosy Tea Shop in Bayonne (They're so kind)"}>
+       </ItemProject>
       <ItemProject title={"ArthurNathalie"} 
       thumbnail={'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}
       type={"Eye-Wear Website"}
