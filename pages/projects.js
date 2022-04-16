@@ -21,6 +21,16 @@ import { ItemProject } from '../components/ItemProject'
 import { CalendarIcon, EmailIcon, PhoneIcon } from "@chakra-ui/icons";
 import { useBreakpointValue } from '@chakra-ui/react';
 
+//images
+import imgArthur from '../public/images/projects/arthur.jpg'
+import imgFeeling from '../public/images/projects/feeling.jpg'
+import imgTampopo from '../public/images/projects/tampopo.jpeg'
+import imgChapardeurs from '../public/images/projects/chapardeurs.jpg'
+import imgMontekana from '../public/images/projects/Montekana.png'
+import imgJungle from '../public/images/projects/JungleWorks.png'
+
+
+
 export default function About() {
     //The weird pyramid stuff
   const canvas = useThree(ThreeTetra);
@@ -44,35 +54,35 @@ export default function About() {
       <Main>
       <SimpleGrid columns={{base:1,  lg: 2}} spacing={10}>
       <ItemProject title={"Tampopo"} 
-      thumbnail={'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}
+      thumbnail={imgTampopo}
       type="Restaurant Website"
       year={2022}
       desc={"A website made for one of the best sushi chef in France :) "}></ItemProject>
       <ItemProject title={"Chapardeurs"} 
-      thumbnail={'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}
+      thumbnail={imgChapardeurs}
       type={"Cat-Hotel Website"}
       year={2021}
       desc={"I had to watch 300 different cat pictures to build this cat hotel website"}></ItemProject>
       <ItemProject title={"FeelLing"}
-       thumbnail={'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}
+       thumbnail={imgFeeling}
        type={"Restaurant Website"}
        year={2021}
        desc={"A website for the best cantonese restaurant of Paris (They're the best)"}>
        </ItemProject>
        <ItemProject title={"JungleWorks"}
-       thumbnail={'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}
+       thumbnail={imgJungle}
        type={"Ticket System"}
        year={2020}
        desc={"A handmade javascript ticketing system made for a food delivery app"}>
        </ItemProject>
        <ItemProject title={"Montekana"}
-       thumbnail={'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}
+       thumbnail={imgMontekana}
        type={"Tea Shop Website"}
        year={2020}
        desc={"A website for a very cosy Tea Shop in Bayonne (They're so kind)"}>
        </ItemProject>
       <ItemProject title={"ArthurNathalie"} 
-      thumbnail={'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'}
+      thumbnail={imgArthur}
       type={"Eye-Wear Website"}
       year={2019}
       desc={"A website designed for a super kind and joyful glasses seller called Arthur"}
