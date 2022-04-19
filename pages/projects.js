@@ -26,8 +26,8 @@ import imgArthur from '../public/images/projects/arthur.jpg'
 import imgFeeling from '../public/images/projects/feeling.jpg'
 import imgTampopo from '../public/images/projects/tampopo.jpeg'
 import imgChapardeurs from '../public/images/projects/chapardeurs.jpg'
-import imgMontekana from '../public/images/projects/Montekana.png'
-import imgJungle from '../public/images/projects/JungleWorks.png'
+import imgMontekana from '../public/images/projects/montekana.png'
+import imgJungle from '../public/images/projects/jungleworks.png'
 
 
 
