@@ -22,7 +22,8 @@ import { Container } from '../components/Container'
 import { Main } from '../components/Main'
 import { DarkModeSwitch } from '../components/DarkModeSwitch'
 import { Footer } from '../components/Footer'
-import { CalendarIcon, EmailIcon, PhoneIcon } from "@chakra-ui/icons";
+import { ArrowBackIcon, CalendarIcon, EmailIcon, PhoneIcon } from "@chakra-ui/icons";
+import { IconButton } from '@chakra-ui/react'
 
 export default function Simple() {
   return (
@@ -104,6 +105,7 @@ export default function Simple() {
             }}>
             Visit their website
           </Button>
+          <IconButton aria-label='Go back' icon={<ArrowBackIcon />} />
 
           <Stack direction="row" alignItems="center" justifyContent={'center'}>
           </Stack>

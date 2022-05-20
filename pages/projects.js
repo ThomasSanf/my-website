@@ -1,6 +1,6 @@
 import ThreeTetra from "../threejs/ThreeTetra";
 import { useThree } from "../hooks/useThree";
-import {AbsoluteCenter, Heading, Link} from "@chakra-ui/react"
+import {AbsoluteCenter, Button, Heading, Link} from "@chakra-ui/react"
 import { Center, Square, Circle } from '@chakra-ui/react'
 import {
   Link as ChakraLink,
@@ -53,11 +53,14 @@ export default function About() {
 
       <Main>
       <SimpleGrid columns={{base:1,  lg: 2}} spacing={10}>
-      <ItemProject title={"Tampopo"} 
+      <ItemProject title={"Tampopo"}
       thumbnail={imgTampopo}
       type="Restaurant Website"
       year={2022}
-      desc={"A website made for one of the best sushi chef in France :) "}></ItemProject>
+      desc={"A website made for one of the best sushi chef in France :) "}>
+      link={"https://localhost:3000"}
+      </ItemProject>
+
       <ItemProject title={"Chapardeurs"} 
       thumbnail={imgChapardeurs}
       type={"Cat-Hotel Website"}

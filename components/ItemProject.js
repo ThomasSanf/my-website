@@ -7,10 +7,12 @@ import {
   Stack,
   Avatar,
   useColorModeValue,
+  Link,
 } from '@chakra-ui/react';
 
-export const ItemProject = ({title,type, thumbnail, desc, year}) => {
+export const ItemProject = ({title,type, thumbnail, desc, year, link}) => {
   return (
+
     <Center py={6}>
       <Box
         maxW={'445px'}
@@ -52,6 +54,9 @@ export const ItemProject = ({title,type, thumbnail, desc, year}) => {
           <Text color={'gray.500'}>
             {desc}
           </Text>
+          <Link>
+          {link}
+          </Link>
         </Stack>
         <Stack mt={6} direction={'row'} spacing={4} align={'center'}>
           <Avatar

@@ -101,8 +101,8 @@ export default class Sketch {
   render() {
     if (!this.isPlaying) return;
     this.time += 0.05;
-    this.plane.rotation.x += 0.01;
-    this.plane.rotation.y += 0.01;
+    this.plane.rotation.x += 0.005;
+    this.plane.rotation.y += 0.005;
     this.material.uniforms.time.value = this.time;
     requestAnimationFrame(this.render.bind(this));
     this.renderer.render(this.scene, this.camera);
