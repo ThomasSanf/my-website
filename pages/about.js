@@ -36,7 +36,7 @@ export default function About() {
       <Hero title={"about."}/>
       <Main>
       <Center>   
-        <Text>I am a 22 years old full stack developer based in France 🇫🇷</Text>
+        <Text>I am a French 🇫🇷 22 years old full stack developer based in Taiwan 🇹🇼</Text>
       </Center>
       <Center>   
         <Text>I have been working as a freelance developer since 2019</Text>

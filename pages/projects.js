@@ -10,6 +10,7 @@ import {
   ListIcon,
   ListItem,
   SimpleGrid,
+  NextLink,
   Spacer
 } from '@chakra-ui/react'
 import { Hero } from '../components/Hero'
@@ -58,7 +59,9 @@ export default function About() {
       type="Restaurant Website"
       year={2022}
       desc={"A website made for one of the best sushi chef in France :) "}>
-      link={"https://localhost:3000"}
+      <NextLink href="/arthur">
+        <Link>Works</Link>
+      </NextLink>
       </ItemProject>
 
       <ItemProject title={"Chapardeurs"} 

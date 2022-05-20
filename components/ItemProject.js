@@ -7,10 +7,9 @@ import {
   Stack,
   Avatar,
   useColorModeValue,
-  Link,
 } from '@chakra-ui/react';
 
-export const ItemProject = ({title,type, thumbnail, desc, year, link}) => {
+export const ItemProject = ({title,type, thumbnail, desc, year}) => {
   return (
 
     <Center py={6}>
@@ -54,13 +53,10 @@ export const ItemProject = ({title,type, thumbnail, desc, year, link}) => {
           <Text color={'gray.500'}>
             {desc}
           </Text>
-          <Link>
-          {link}
-          </Link>
         </Stack>
         <Stack mt={6} direction={'row'} spacing={4} align={'center'}>
           <Avatar
-            src={'https://avatars0.githubusercontent.com/u/1164541?v=4'}
+            src={'https://avatars.githubusercontent.com/u/58660377?v=4'}
             alt={'Author'}
           />
           <Stack direction={'column'} spacing={0} fontSize={'sm'}>
