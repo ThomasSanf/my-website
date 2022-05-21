@@ -8,10 +8,11 @@ import {
   Avatar,
   useColorModeValue,
 } from '@chakra-ui/react';
+import { LinkBox, LinkOverlay } from '@chakra-ui/react'
 
-export const ItemProject = ({title,type, thumbnail, desc, year}) => {
+export const ItemProject = ({title,type, thumbnail, desc, year,link}) => {
   return (
-
+    <LinkBox>
     <Center py={6}>
       <Box
         maxW={'445px'}
@@ -48,7 +49,9 @@ export const ItemProject = ({title,type, thumbnail, desc, year}) => {
             color={useColorModeValue('gray.700', 'white')}
             fontSize={'2xl'}
             fontFamily={'body'}>
+            <LinkOverlay href={link}>
             {title}
+            </LinkOverlay>
           </Heading>
           <Text color={'gray.500'}>
             {desc}
@@ -68,5 +71,6 @@ export const ItemProject = ({title,type, thumbnail, desc, year}) => {
         </Stack>
       </Box>
     </Center>
+    </LinkBox>
   );
 }

@@ -5,6 +5,7 @@ import {
   Code,
   Stack,
   Text,
+  Link,
   Image,
   Flex,
   VStack,
@@ -22,8 +23,9 @@ import { Container } from '../components/Container'
 import { Main } from '../components/Main'
 import { DarkModeSwitch } from '../components/DarkModeSwitch'
 import { Footer } from '../components/Footer'
-import { ArrowBackIcon, CalendarIcon, EmailIcon, PhoneIcon } from "@chakra-ui/icons";
+import { ArrowBackIcon, CalendarIcon, EmailIcon, PhoneIcon, ExternalLinkIcon } from "@chakra-ui/icons";
 import { IconButton } from '@chakra-ui/react'
+import NextLink from "next/link"
 
 export default function Simple() {
   return (
@@ -90,6 +92,7 @@ export default function Simple() {
             <Text>Languages used</Text>
             <Code>HTML - CSS - JavaScript - SQL - PHP</Code>
 
+            <Link href='https://arthuretnathalie.com/' isExternal>
           <Button
             rounded={'none'}
             w={'full'}
@@ -103,9 +106,14 @@ export default function Simple() {
               transform: 'translateY(2px)',
               boxShadow: 'lg',
             }}>
-            Visit their website
+
+              Visit their website <ExternalLinkIcon mx='2px' />
           </Button>
+          </Link>
+
+          <NextLink href='projects' passHref>
           <IconButton aria-label='Go back' icon={<ArrowBackIcon />} />
+          </NextLink>
 
           <Stack direction="row" alignItems="center" justifyContent={'center'}>
           </Stack>

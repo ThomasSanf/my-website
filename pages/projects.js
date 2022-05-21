@@ -21,7 +21,7 @@ import { Footer } from '../components/Footer'
 import { ItemProject } from '../components/ItemProject'
 import { CalendarIcon, EmailIcon, PhoneIcon } from "@chakra-ui/icons";
 import { useBreakpointValue } from '@chakra-ui/react';
-
+import { LinkBox, LinkOverlay } from '@chakra-ui/react'
 //images
 import imgArthur from '../public/images/projects/arthur.jpg'
 import imgFeeling from '../public/images/projects/feeling.jpg'
@@ -54,15 +54,15 @@ export default function About() {
 
       <Main>
       <SimpleGrid columns={{base:1,  lg: 2}} spacing={10}>
+      <LinkBox>
       <ItemProject title={"Tampopo"}
       thumbnail={imgTampopo}
       type="Restaurant Website"
       year={2022}
-      desc={"A website made for one of the best sushi chef in France :) "}>
-      <NextLink href="/arthur">
-        <Link>Works</Link>
-      </NextLink>
+      desc={"A website made for one of the best sushi chef in France :) "}
+      link={'/tampopo'}>
       </ItemProject>
+      </LinkBox>
 
       <ItemProject title={"Chapardeurs"} 
       thumbnail={imgChapardeurs}
@@ -92,6 +92,7 @@ export default function About() {
       type={"Eye-Wear Website"}
       year={2019}
       desc={"A website designed for a super kind and joyful glasses seller called Arthur"}
+      link={'arthur'}
       ></ItemProject>
       </SimpleGrid>
       <Center>
