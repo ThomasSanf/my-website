@@ -39,7 +39,7 @@ export default function Home() {
     <Center><Hero></Hero></Center>
     <Main>
     <Center>   
-      <Text>Website made using <Code>Next.js</Code> + <Code>chakra-ui</Code> + <Code>Three.js</Code>.</Text>
+      <Text fontSize='xl'>Website made using <Code fontSize='xl'>Next.js</Code> + <Code fontSize='xl'>chakra-ui</Code> + <Code fontSize='xl'>Three.js</Code>.</Text>
       </Center>
     <Center>
     <Footer>

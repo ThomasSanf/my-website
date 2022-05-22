@@ -63,17 +63,22 @@ export default function About() {
       link={'/tampopo'}>
       </ItemProject>
       </LinkBox>
-
+      <LinkBox>
       <ItemProject title={"Chapardeurs"} 
       thumbnail={imgChapardeurs}
       type={"Cat-Hotel Website"}
       year={2021}
-      desc={"I had to watch 300 different cat pictures to build this cat hotel website"}></ItemProject>
+      desc={"I had to watch 300 different cat pictures to build this cat hotel website"}
+      link={'/chapardeurs'}>
+
+      </ItemProject>
+      </LinkBox>
       <ItemProject title={"FeelLing"}
        thumbnail={imgFeeling}
        type={"Restaurant Website"}
        year={2021}
-       desc={"A website for the best cantonese restaurant of Paris (They're the best)"}>
+       desc={"A website for the best cantonese restaurant of Paris (They're the best)"}
+       link={'/feelling'}>
        </ItemProject>
        <ItemProject title={"JungleWorks"}
        thumbnail={imgJungle}
