@@ -90,7 +90,9 @@ import {
               <Code>HTML - CSS - JavaScript - SQL - PHP</Code>
   
             <NextLink href='projects' passHref>
-            <IconButton aria-label='Go back' icon={<ArrowBackIcon />} />
+            <IconButton
+             aria-label='Go back'
+             icon={<ArrowBackIcon/>} />
             </NextLink>
   
             <Stack direction="row" alignItems="center" justifyContent={'center'}>
