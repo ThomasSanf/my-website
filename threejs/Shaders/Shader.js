@@ -82,7 +82,7 @@ void main() {
   vUv = uv;
   vec3 newposition = position;
   
-  newposition.z += 0.5*cnoise(vec3(position.x*10.,position.y*10. + time/6.,0));
+  newposition.z += 0.5*cnoise(vec3(position.x*10.,position.y*10. + time/7.,0));
 
   gl_Position = projectionMatrix * modelViewMatrix * vec4( newposition, 1.0 );
 }
