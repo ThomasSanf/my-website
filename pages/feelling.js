@@ -34,6 +34,19 @@ import {
           columns={{ base: 1, lg: 2 }}
           spacing={{ base: 8, md: 10 }}
           py={{ base: 18, md: 24 }}>
+          <Flex>
+            <Image
+              rounded={'md'}
+              alt={'product image'}
+              src={
+                'https://i.postimg.cc/25sBjdy1/Capture-d-e-cran-2022-05-22-a-23-16-46-min.png'
+              }
+              fit={'cover'}
+              align={'center'}
+              w={'100%'}
+              h={{ base: '100%', sm: '400px', lg: '500px' }}
+            />
+          </Flex>
           <Stack spacing={{ base: 6, md: 10 }}>
             <Box as={'header'}>
               <Heading
@@ -105,19 +118,6 @@ import {
             <Stack direction="row" alignItems="center" justifyContent={'center'}>
             </Stack>
           </Stack>
-          <Flex>
-            <Image
-              rounded={'md'}
-              alt={'product image'}
-              src={
-                'https://i.postimg.cc/25sBjdy1/Capture-d-e-cran-2022-05-22-a-23-16-46-min.png'
-              }
-              fit={'cover'}
-              align={'center'}
-              w={'100%'}
-              h={{ base: '100%', sm: '400px', lg: '500px' }}
-            />
-          </Flex>
         </SimpleGrid>
       </Container>
     );

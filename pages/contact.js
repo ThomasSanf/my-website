@@ -45,7 +45,7 @@ export default function About() {
         <Code fontSize='xl'><CalendarIcon/><Link href="https://www.instagram.com/thomas_sanfo/">--Instagram: @thomas_sanfo</Link></Code>
       </Center>
       <Center>   
-        <Code fontSize='xl'><PhoneIcon></PhoneIcon><Link href="tel:+886973624201">--Phone: +33644150889</Link></Code>
+        <Code fontSize='xl'><PhoneIcon></PhoneIcon><Link href="tel:+886973624201">--Phone: +886973624201</Link></Code>
       </Center>
       <Center>
       <Footer>
