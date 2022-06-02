@@ -90,7 +90,8 @@ export default function About() {
        thumbnail={imgMontekana}
        type={"Tea Shop Website"}
        year={2020}
-       desc={"A website for a very cosy Tea Shop in Bayonne (They're so kind)"}>
+       desc={"A website for a very cosy Tea Shop in Bayonne (They're so kind)"}
+       link={'/montekana'}>
        </ItemProject>
       <ItemProject title={"ArthurNathalie"} 
       thumbnail={imgArthur}

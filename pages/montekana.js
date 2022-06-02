@@ -26,6 +26,7 @@ import {
   import { ArrowBackIcon, CalendarIcon, EmailIcon, PhoneIcon, ExternalLinkIcon } from "@chakra-ui/icons";
   import { IconButton } from '@chakra-ui/react'
   import NextLink from "next/link"
+  import imgMontekana from '../public/images/projects/montekana.png'
   
   export default function Simple() {
     return (
@@ -39,7 +40,7 @@ import {
               rounded={'md'}
               alt={'product image'}
               src={
-                'https://chapardeurs.com/wp-content/uploads/2022/02/chat1.jpg'
+                'https://www.bayonneshopping.com/wp-content/uploads/2021/08/montekana-568x568.jpg'
               }
               fit={'cover'}
               align={'center'}
@@ -55,13 +56,13 @@ import {
                 fontSize={{ base: '2xl', sm: '4xl', lg: '5xl' }}
                 bgGradient="linear(to-l, #7928CA, #FF0080)"
                 bgClip="text">
-                Les Chapardeurs
+                Montekana
               </Heading>
               <Text
                 color={useColorModeValue('gray.900', 'gray.400')}
                 fontWeight={300}
                 fontSize={'2xl'}>
-                <Code>August 2021</Code>
+                <Code>September 2020</Code>
               </Text>
             </Box>
   
@@ -78,10 +79,9 @@ import {
                   color={useColorModeValue('white.500', 'white.400')}
                   fontSize={'2xl'}
                   fontWeight={'300'}>
-                          A booking website for a cat hotel located in french region of Dordogne,
-             it was made in 2021. It was
-            built using wordpress. Got a traffic over 300
-            users per day.
+                          A website created for a furniture store located in Bayonne in the city of Biarritz,
+             it was made in 2020. It was
+            built using wordpress. I did it as a volunteering project for one of my family member. The website can no longer be viewed.
                 </Text>
               </VStack>
       
@@ -92,7 +92,7 @@ import {
               <Text>Languages used</Text>
               <Code>HTML - CSS - JavaScript - SQL - PHP</Code>
   
-              <Link href='https://chapardeurs.com/' isExternal>
+              <Link href='https://algobox.fr/projects' isExternal>
             <Button
               rounded={'none'}
               w={'full'}
@@ -107,7 +107,7 @@ import {
                 boxShadow: 'lg',
               }}>
   
-                Visit their website <ExternalLinkIcon mx='2px' />
+                Check my other projects <ExternalLinkIcon mx='2px' />
             </Button>
             </Link>
   

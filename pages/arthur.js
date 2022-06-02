@@ -111,9 +111,24 @@ export default function Simple() {
           </Button>
           </Link>
 
-          <NextLink href='projects' passHref>
-          <IconButton aria-label='Go back' icon={<ArrowBackIcon />} />
-          </NextLink>
+          <Link href='https://algobox.fr/projects' isExternal>
+          <Button
+            rounded={'none'}
+            w={'full'}
+            mt={1}
+            size={'lg'}
+            py={'7'}
+            bgGradient="linear(to-l, #7928CA, #000000)"
+            
+            textTransform={'uppercase'}
+            _hover={{
+              transform: 'translateY(2px)',
+              boxShadow: 'lg',
+            }}>
+
+              Check my other projects <ArrowBackIcon mx='2px' />
+          </Button>
+          </Link>
 
           <Stack direction="row" alignItems="center" justifyContent={'center'}>
           </Stack>
