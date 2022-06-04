@@ -21,7 +21,11 @@ export const ItemProject = ({title,type, thumbnail, desc, year,link}) => {
         boxShadow={'2xl'}
         rounded={'md'}
         p={6}
-        overflow={'hidden'}>
+        overflow={'hidden'}
+        _hover={{
+          transform: 'translateY(4px)',
+          boxShadow: 'lg',
+        }}>
         <Box
           h={'210px'}
           bg={'gray.100'}
