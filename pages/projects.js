@@ -84,7 +84,8 @@ export default function About() {
        thumbnail={imgJungle}
        type={"Ticket System"}
        year={2020}
-       desc={"A handmade javascript ticketing system made for a food delivery app"}>
+       desc={"A handmade javascript ticketing system made for a food delivery app"}
+       link={'/jungleworks'}>
        </ItemProject>
        <ItemProject title={"Montekana"}
        thumbnail={imgMontekana}

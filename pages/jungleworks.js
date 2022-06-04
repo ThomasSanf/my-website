@@ -39,7 +39,7 @@ import {
               rounded={'md'}
               alt={'product image'}
               src={
-                'https://i.postimg.cc/25sBjdy1/Capture-d-e-cran-2022-05-22-a-23-16-46-min.png'
+                'https://i.ibb.co/HhFgBzM/Capture-d-e-cran-2022-06-04-a-15-27-26.png'
               }
               fit={'cover'}
               align={'center'}
@@ -55,13 +55,13 @@ import {
                 fontSize={{ base: '2xl', sm: '4xl', lg: '5xl' }}
                 bgGradient="linear(to-l, #7928CA, #FF0080)"
                 bgClip="text">
-                Feel Ling 
+                JungleWorks
               </Heading>
               <Text
                 color={useColorModeValue('gray.900', 'gray.400')}
                 fontWeight={300}
                 fontSize={'2xl'}>
-                <Code>September 2021</Code>
+                <Code>February 2020</Code>
               </Text>
             </Box>
   
@@ -78,10 +78,8 @@ import {
                   color={useColorModeValue('white.500', 'white.400')}
                   fontSize={'2xl'}
                   fontWeight={'300'}>
-                          A showcase website made for an amazing Cantonese restaurant located in the 16th Paris district,
-             it was made in 2021. It was
-            built using wordpress. Got a traffic over 500
-            users per day.
+                          A ticketing system made using JavaScript, for an Indian company called Jungleworks,
+             they provided all sorts of softwares. The goal of that project was to add custom VAT to one of their billing systems.
                 </Text>
               </VStack>
       
@@ -92,7 +90,7 @@ import {
               <Text>Languages used</Text>
               <Code>HTML - CSS - JavaScript - SQL - PHP</Code>
   
-              <Link href='https://feel-ling.fr/' isExternal>
+              <Link href='https://jungleworks.com/' isExternal>
             <Button
               rounded={'none'}
               w={'full'}
@@ -111,11 +109,11 @@ import {
             </Button>
             </Link>
   
-            <NextLink href='projects' passHref>
+            <NextLink href='projects' isExternal>
             <Button
               rounded={'none'}
               w={'full'}
-              mt={0}
+              mt={1}
               size={'lg'}
               py={'7'}
               bgGradient="linear(to-l, #7928CA, #000000)"
@@ -129,7 +127,6 @@ import {
                 Check my other projects <ArrowBackIcon mx='2px' />
             </Button>
             </NextLink>
-  
   
             <Stack direction="row" alignItems="center" justifyContent={'center'}>
             </Stack>

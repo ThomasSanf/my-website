@@ -111,7 +111,7 @@ import {
             </Button>
             </Link>
   
-            <Link href='https://algobox.fr/projects' isExternal>
+            <NextLink href='projects' passHref>
             <Button
               rounded={'none'}
               w={'full'}
@@ -128,7 +128,7 @@ import {
   
                 Check my other projects <ArrowBackIcon mx='2px' />
             </Button>
-            </Link>
+            </NextLink>
   
   
             <Stack direction="row" alignItems="center" justifyContent={'center'}>
