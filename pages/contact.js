@@ -42,7 +42,7 @@ export default function About() {
       onClick={() => window.location = 'contact@algobox.fr'}>--Mail: contact@algobox.fr</Link></Code>
       </Center>
       <Center>   
-        <Code fontSize='xl'><CalendarIcon/><Link href="https://www.instagram.com/thomas_sanfo/">--Instagram: @thomas_sanfo</Link></Code>
+        <Code fontSize='xl'><CalendarIcon/><Link href="https://www.instagram.com/__shenyang/">--Instagram: @__shenyang</Link></Code>
       </Center>
       <Center>   
         <Code fontSize='xl'><PhoneIcon></PhoneIcon><Link href="tel:+886973624201">--Phone: +886973624201</Link></Code>
