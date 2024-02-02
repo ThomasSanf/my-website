@@ -91,25 +91,7 @@ import {
   
               <Text>Languages used</Text>
               <Code>HTML - CSS - JavaScript - SQL - PHP</Code>
-  
-              <Link href='https://algobox.fr/projects' isExternal>
-            <Button
-              rounded={'none'}
-              w={'full'}
-              mt={8}
-              size={'lg'}
-              py={'7'}
-              bgGradient="linear(to-l, #7928CA, #FF0080)"
-              
-              textTransform={'uppercase'}
-              _hover={{
-                transform: 'translateY(2px)',
-                boxShadow: 'lg',
-              }}>
-  
-                Check my other projects <ExternalLinkIcon mx='2px' />
-            </Button>
-            </Link>
+
   
             <NextLink href='projects' passHref>
             <Button
